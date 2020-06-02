@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Microfrontend Base App</title>
+  <link href="header" rel="import" async />
+  <link href="plans" rel="import" async />
+  <link href="create-plan" rel="import" async />
 </head>
 <body>
   <h1>Base App</h1>
-  <%- header %>
-  <%- plans %>
-  <%- createPlan %>
+  <microfrontend-header></microfrontend-header>
+  <microfrontend-plans></microfrontend-plans>
+  <microfrontend-create-plan></microfrontend-create-plan>
 </body>
 </html>
